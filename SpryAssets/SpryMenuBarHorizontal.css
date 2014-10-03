@@ -19,6 +19,7 @@ ul.MenuBarHorizontal
     margin: 0;
 	padding: 0;
     margin-top: 16px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
 	list-style-type: none;
 	font-size: 100%;
 	cursor: default;
@@ -36,6 +37,7 @@ ul.MenuBarActive
 ul.MenuBarHorizontal li
 {
     border-right: 2px solid transparent; /** #828282 **/
+    
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -100,6 +102,7 @@ ul.MenuBarHorizontal a
 {
     text-transform:uppercase;
 	border-bottom:3px solid #ddd;
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
 	display: block;
 	cursor: pointer;
 	background-color: #EEE;

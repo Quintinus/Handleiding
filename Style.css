@@ -16,7 +16,7 @@ background-image: url(IMG/noisy3.png);
 }
 
 #headercontent{
-width: 1044px;
+width: 1083px; /** Prutswerk / Was 1044px maar doordat ik 20px padding voor inhoud heb gedaan moest ik de header veranderen om het evenwijdig te krijgen / links = ok, rechts = paar pixels af **/ 
 margin: 0 auto;
 position:relative;
 padding: 10px 0;
@@ -41,6 +41,7 @@ background: url(IMG/Litto_textured.png);
 #inhoud{
 margin: 0 auto;
 Padding: 20px;
+margin-bottom: 20px;
 height: 100%;
 width: 1044px;
 position: relative;  
